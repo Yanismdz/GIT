@@ -1,0 +1,41 @@
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.warning
+{
+    background-color:#527E8B;
+    color:#9E9E9E;
+    font-size:10px;
+}
+div
+{
+    display:inline-block;
+    display:table-cell;
+}
+
+h3
+{
+    margin-left:5%;
+}
+
+p
+{
+    background-color:#9E9E9E;
+}
+span
+{
+    color: #3A6C7C;
+}
+
+li
+{
+    background-color:#527E8B;
+}
+body
+{
+    background-color:#ffbb55;
+}
+

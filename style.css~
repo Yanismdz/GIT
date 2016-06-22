@@ -1,0 +1,20 @@
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3
+{
+    margin-left:5%;
+}
+
+span
+{
+    color: #B39A9A;
+}
+
+body
+{
+    background-color:#527E8B;
+}

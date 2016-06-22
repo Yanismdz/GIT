@@ -1,45 +1,54 @@
 <!doctype html>
 <html>
     <head>
-	<title>CheatSheat GIT</title>
+	<title>CheatSheet GIT</title>
 	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="style.css"/>
     </head>
     <body>
 	<h2>GIT CHEATSHEET</h2>
-	<h3>Creating</h3>
-	<ul>
-	    <li>Create a new local repository<br></li>
-	    <p class="fonction">git init</p>
-	    <li>Clone an existing repository<br> </li>
-	    <p class="fonction">git clone <span>**the url**</span> </p>
-	</ul>
-	<h3>Change</h3>
-	<ul>
-	    <li>Add all current changes to the next commit<br></li>
-	    <p>git add . </p>
-	    <li>Add some changed files to the commit<br></li>
-	    <p>git add <span>**files**</span></p>
-	    <li>Change the last commit<br></li>
-	    <p>Only before you push</p>
-	    <p>git commit --amend </p>
-	</ul>
-	<h3>Information</h3>
-	<ul>
-	    <li>Show all commit</li>
-	    <p>git log</p>
-	    <li>Show changes for a specific file</li>
-	    <p>git log -p <span>**name of the file**</span></p>
-	</ul>
-	<h3>Updating</h3>
-	<ul>
-	    <li>Add a new remote repository</li>
-	    <p>git remote add origin <span>**reposotory url**</span></p>
-	    <li>Show information about a remote</li>
-	    <p>git remote show <span>**name of the remote</span></p>
-	    <li>List alla currently configured remites</li>
-	    <p>git remote -v</p>
-	    <li>git push <span>**remote****branch**</span></li>
-	</ul>
-	
+	<div>
+	    <h3>Creating</h3>
+	    <ul>
+		<li>Create a new local repository<br></li>
+		<p class="fonction">git init</p>
+		<li>Clone an existing repository<br> </li>
+		<p class="fonction">git clone <span>**the url**</span> </p>
+	    </ul>
+	</div>
+	<div>
+	    <h3>Change</h3>
+	    <ul>
+		<li>Add all current changes to the next commit<br></li>
+		<p class="fonction">git add . </p>
+		<li>Add some changed files to the commit<br></li>
+		<p class="fonction">git add <span>**files**</span></p>
+		<li>Change the last commit<br></li>
+		<p class="warning">Only before you push</p>
+		<p class="fonction">git commit --amend </p>
+	    </ul>
+	</div>
+	<div>
+	    <h3>Updating</h3>
+	    <ul>
+		<li>Add a new remote repository</li>
+		<p class="fonction">git remote add origin <span>**reposotory url**</span></p>
+		<li>Show information about a remote</li>
+		<p class="fonction">git remote show <span>**name of the remote</span></p>
+		<li>List alla currently configured remites</li>
+		<p class="fonction">git remote -v</p>
+		<li>Publish local changes on a remote</li>	    
+		<p class="fonction">git push <span>**remote****branch**</span></p>
+	    </ul>
+	</div>
+	<div>
+	    <h3>Information</h3>
+	    <ul>
+		<li>Show all commit</li>
+		<p class="fonction">git log</p>
+		<li>Show changes for a specific file</li>
+		<p class="fonction">git log -p <span>**name of the file**</span></p>
+	    </ul>
+	</div>
     </body>
 </html>

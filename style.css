@@ -1,63 +1,78 @@
-h2
+/* Title modificaiton */
+h2			
 {
     background-color:#9ACD32;
     text-align: center;
     text-decoration: underline;
 }
-
+/* Modification for the lillte warning "only before you push" */
 .warning
 {
     background-color:#9ACD32;
     font-size:10px;
 }
 
+/* Get ride of the point next to the list */
 ul
 {
     list-style-type: none;
 }
 
+/* Make the block of h3 and list inline */
 div
 {
     display:inline-block;
     display:table-cell;
 }
 
+/* Title modification */
 h3
 {
     text-decoration: underline;
     margin-left:20%;
 }
 
+/* Text color change */
 p
 {
     background-color:#9ACD32;
 }
+
+/* Modification of color for the ** ** words  */
 span
 {
     color: #3A6C7C;
 }
 
+/* Color of the listed part */
 li
 {
     background-color: chocolate;
+    
 }
+
+/* Background of the page */
 body
 {
     background-color:#D3D3D3;
 }
 
+/* Responsive */
 @media all and (max-width: 800px)
 {
+    /* Make the block vertical when  */
     div
     {
 	display:block;
 	text-align:center;
     }
+
     h3
     {
 	margin-left:0%;
 	text-align:center;
     }
+
     h2
     {
 	margin-left:26%;
